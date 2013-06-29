@@ -14,7 +14,7 @@ setup(
     include_package_data=True,
     zip_safe=True,
     install_requires=[
-        'django-facebook-api>=0.1.4',
+        
     ],
     classifiers=[
         'Development Status :: 4 - Beta',

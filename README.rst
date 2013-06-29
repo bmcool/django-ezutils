@@ -22,6 +22,7 @@ Installation
         "django_ezutils",
     ]
 
+=========
 Changelog
 =========
 

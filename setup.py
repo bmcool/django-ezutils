@@ -14,7 +14,8 @@ setup(
     include_package_data=True,
     zip_safe=True,
     install_requires=[
-        
+        'Django==1.4.5',
+        'Mezzanine==1.4.6',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',

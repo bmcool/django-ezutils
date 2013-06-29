@@ -4,7 +4,7 @@ setup(
     name='django-ezutils',
     version=__import__('django_ezutils').__version__,
     description='Django easy to use utility.',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     author='bmcool',
     author_email='bloggerbm@gmail.com',
     url='https://github.com/bmcool/django-ezutils',

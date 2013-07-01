@@ -1,7 +1,7 @@
 
 from django.forms.widgets import DateInput
 
-from django.contrib.admin.templatetags.admin_static import static
+from django.templatetags.static import *
 
 class DatePickerWidget(DateInput):
     class Media:

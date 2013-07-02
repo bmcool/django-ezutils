@@ -16,6 +16,7 @@ setup(
     install_requires=[
         'Django==1.4.5',
         'Mezzanine==1.4.6',
+        'Unidecode==0.04.13',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',

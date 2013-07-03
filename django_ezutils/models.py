@@ -5,6 +5,7 @@ from django.utils.translation import ugettext_lazy as _
 
 from unidecode import unidecode
 from mezzanine.core.models import Slugged
+from mezzanine.utils.urls import slugify
 
 class TimestampModel(models.Model):
     created_time = models.DateTimeField(auto_now_add=True)

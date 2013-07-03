@@ -13,7 +13,10 @@ class TimestampModel(models.Model):
     class Meta:
         abstract = True
 
-class UnicodeSlugged:
+class UnicodeSlugged(Slugged):
+    class Meta:
+        abstract = True
+    
     def get_slug(self):
         return slugify(unidecode(self.title))
 
